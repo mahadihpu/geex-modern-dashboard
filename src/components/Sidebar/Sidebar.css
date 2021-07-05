@@ -1,0 +1,20 @@
+.sidebar{
+    margin: 30px;
+    background-color: #f8f8fa;
+    border-radius: 25px;
+}
+
+.copyright{
+    margin: 70px 25px 20px 25px;
+}
+.copyright h5{
+    font-size: 15px;
+}
+.copyright p{
+    font-weight: 400;
+    font-size: 12px;
+    color: grey;
+}
+.sidebar__links{
+    text-decoration: none;
+}
