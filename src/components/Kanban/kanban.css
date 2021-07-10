@@ -1,0 +1,28 @@
+.kanban__board{
+    display:flex
+}
+.kanban__todo{
+    flex: 0.3;
+}
+.kanban__card{
+    border-radius: 15px;
+    margin:10px;
+    padding: 10px;
+}
+.ui__design{
+    padding: 10px 15px;
+    border: none;
+    border-radius:  25px;
+    background-color: #ddf6f0;
+    color: #00a28a;
+}
+.tasked__persons{
+    display:flex;
+}
+.tasked__person{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 30%;
+    margin-right: 10px;
+}

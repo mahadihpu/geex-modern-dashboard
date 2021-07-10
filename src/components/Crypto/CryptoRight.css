@@ -1,0 +1,18 @@
+.trade__plus{
+    color: #00a388;
+}
+.trade__minus{
+    color: #ff5b5a;
+}
+.status__iconContainer{
+    border-radius: 35%;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.icon__red{
+    color:#ff5b5a;
+}
+.icon__green{
+    color: #00a388;
+}

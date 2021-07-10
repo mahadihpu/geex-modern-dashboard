@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Grid container justify="center" alignItems="center">
-        <img src={logo} alt="" />
+        <img className="brand__logo" src={logo} alt="" />
       </Grid>
       <br />
       <Link to="/" className="sidebar__links">

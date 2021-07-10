@@ -1,0 +1,30 @@
+.contact__card{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px !important;
+    float: left;
+}
+.card__content ul li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.card__content{
+    padding-bottom: 5px !important;
+    padding-top: 0 !important;
+}
+.card__header{
+    display: flex;
+    margin: 10px 0 0 15px
+}.card__headerIcons{
+    margin-left: 70px;
+}
+.avatar{
+    height: 50px !important;
+    width: 50px !important;
+}
+.contact__icon{
+    margin-top:15px;
+    margin-right:5px;
+    color:#ab53db;
+}

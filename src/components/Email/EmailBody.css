@@ -1,0 +1,22 @@
+.message__card{
+    padding:10px;
+    border-radius: 20px;
+}
+.sender__box{
+    height:50px;
+    width:50px;
+    background-color: grey;
+    border-radius: 30%;
+    margin-top: 15px;
+}
+.important__button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #ffbc54;
+    background-color: #fcf3e4;
+    margin-left: 20px;
+}
+.star{
+    color: #d7dee4;
+}

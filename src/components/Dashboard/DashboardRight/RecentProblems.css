@@ -1,0 +1,36 @@
+.recent__problems {
+  margin: 20px;
+}
+.recent__problemsContent {
+  display: flex;
+  align-items: center;
+}
+.social__icons {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.social__links{
+    margin-right: 20px;
+}
+.social__links h5{
+    margin-bottom: 0px;
+}
+.social__links p{
+    margin-top: 0px;
+}
+.btn{
+    padding: 10px 15px;
+    border:none;
+    border-radius: 14px;
+    color: #fff;
+}
+.btn__down{
+    background-color: #ff5b5a;
+}
+.btn__stable{
+    background-color: #00a28a;
+}
+.btn__warning{
+    background-color: #ffbc54;
+}

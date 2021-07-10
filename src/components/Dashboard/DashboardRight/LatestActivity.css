@@ -1,0 +1,15 @@
+.latest__activity{
+    margin: 25px;
+    padding: 10px;
+}
+h3{
+    color: #464155;
+}
+p{
+    color: #c1c1c3;
+}
+.latest__activityTime{
+    font-weight: 500;
+    margin-bottom: -10px;
+    color: #464155;
+}

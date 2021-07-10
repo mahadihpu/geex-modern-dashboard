@@ -1,17 +1,16 @@
-import { Grid } from "@material-ui/core";
 import React from "react";
 import Sidebar from "../Sidebar/Sidebar";
-import DashboardBody from "./DashboardBody/DashboardBody"
+import DashboardBody from "./DashboardBody/DashboardBody";
 const Dashboard = () => {
   return (
-    <Grid container className="app">
-      <Grid item xs={3}>
-        <Sidebar />
-      </Grid>
-      <Grid item xs={9}>
-        <DashboardBody />
-      </Grid>
-    </Grid>
+      <div style={{ display: 'flex',}}>
+        <div style={{ flex: 0.2 }}>
+          <Sidebar />
+        </div>
+        <div style={{ flex: 0.8 }}>
+          <DashboardBody />
+        </div>
+      </div>
   );
 };
 

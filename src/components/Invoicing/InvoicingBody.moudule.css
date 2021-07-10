@@ -1,0 +1,112 @@
+.invoice__card{
+    margin:5px;
+    border-radius: 20px !important;
+    display: flex;
+}
+.invoice__card > p{
+    color: #fff !important;
+}
+.card__icon{
+    padding: 5px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.invoicecard__icon{
+    padding: 15px;
+    border-radius: 30%;
+    background-color: #fff;
+    align-items: center;
+    margin-top: 30px
+}
+.balance__card{
+    margin:0 25px;
+    background-image: linear-gradient(to right,#464155,#353047);
+    border-radius: 20px !important;
+}
+
+.balance__cardContainer{
+    margin-left: 30px;
+    padding: 0 0 20px 0;
+    background-image: url(../../logo__icon.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: bottom right;
+}
+.balance__button{
+    display: flex;
+    color: #ffbb54;
+    border-radius:15px;
+    padding: 0 14px;
+    border: none;
+    background-color: #625454;
+}
+.balance__button > p{
+    color: #febb53
+}
+.expand__button{
+    display: flex;
+    border-radius:15px;
+    padding: 0 17px;
+    border: none;
+    margin-top: 20px;
+    color: #ab53db;
+    display: flex;
+}
+.invoice__listContainer{
+    display: flex;
+}
+.invoice__table{
+    width: 100%;
+}
+.status__button{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 35px;
+}
+.status__paid{
+    background-color: #ddf6f0;
+    color: #1dad96;
+}
+.status__unpaid{
+    background-color: #fce4e4;
+    color: #ff5b5a;
+}
+.status__pending{
+    background-color: #fef5e4;
+    color: #ffba53;
+}
+.invoice__tableCard{
+    border-radius: 20px !important;
+    padding: 10px;
+}
+.status__icon{
+    margin-left: -15px;
+    margin-top: -5px
+}
+.recipient__boxes{
+    display: flex;
+}
+.recipient__box{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 30%;
+    margin: 0 auto;
+}
+.service__options{
+    width: 80%;
+    background-color: #ecebf3;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.send__invoiceButton{
+    padding: 15px 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #ab53db; 
+    border:none;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 20px;
+}

@@ -1,18 +1,17 @@
-import { Grid } from "@material-ui/core";
 import React from "react";
 import Sidebar from "../Sidebar/Sidebar";
-import EmailBody from "./EmailBody/EmailBody";
+import EmailBody from "./EmailBody";
 
 const Email = () => {
   return (
-    <Grid container className="app">
-      <Grid item xs={3}>
+    <div style={{ display: "flex" }}>
+      <div style={{ flex: 0.2 }}>
         <Sidebar />
-      </Grid>
-      <Grid item xs={9}>
+      </div>
+      <div style={{ flex: 0.8 }}>
         <EmailBody />
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 };
 
