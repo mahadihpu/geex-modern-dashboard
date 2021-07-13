@@ -19,7 +19,7 @@ const CryptoRight = () => {
         <h3>Recent Trading</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         {recentTrading.map((trade) => (
-          <Grid style={{ display: "flex", marginBottom: "15px",backgroundColor:"white",padding:"10px 18px 4px 18px",borderRadius: "15px"}}>
+          <Grid style={{ display: "flex", marginBottom: "15px",backgroundColor:"white",padding:"0px 18px 4px 18px",borderRadius: "15px"}}>
             <Grid xs={3}>
               <div
                 className="status__iconContainer"
@@ -30,21 +30,21 @@ const CryptoRight = () => {
                 }}
               >
                 {trade.status === "sell" ? (
-                  <ArrowDownwardIcon style={{marginLeft:"20px",marginTop:"3px"}} className="status__icon icon__red" />
+                  <ArrowDownwardIcon className="status__icon icon__red" />
                 ) : (
-                  <ArrowUpwardIcon style={{marginLeft:"20px",marginTop:"3px"}} className="status__icon icon__green" />
+                  <ArrowUpwardIcon className="status__icon icon__green" />
                 )}
               </div>
             </Grid>
             <Grid xs={6}>
-              <div style={{margin:'-15px 0 0 10px'}}>
-                <p style={{color:"#464253",fontSize:"18px",fontWeight:600}}>{trade.name}</p>
-                <p>{trade.time}</p>
+              <div className="trade__infoContainer">
+                <p className="trade__name">{trade.name}</p>
+                <p className="trade__time">{trade.time}</p>
               </div>
             </Grid>
             <Grid xs={3}>
               <h3
-                className={`${
+                className={`trade__amount ${
                   trade.status === "buy" ? "trade__plus" : "trade__minus"
                 }`}
               >

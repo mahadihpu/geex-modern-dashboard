@@ -1,18 +1,103 @@
-.trade__plus{
-    color: #00a388;
+.trade__plus {
+  color: #00a388;
 }
-.trade__minus{
-    color: #ff5b5a;
+.trade__minus {
+  color: #ff5b5a;
 }
-.status__iconContainer{
-    border-radius: 35%;
-    background-color: white;
-    padding: 20px 0;
+.status__iconContainer {
+  padding: 30% 0;
+  border-radius: 35%;
+  margin-top: 15%;
+}
+.status__icon {
+  margin-left: 20% !important;
+  margin-top: 3px !important;
+}
+@media screen and (min-width: 993px) and (max-width: 993px) {
+    .trade__name{
+        font-size: 14px !important;
+      }
+      .trade__time{
+        font-size: 12px !important;
+      }
+      .trade__amount{
+        font-size: 12px;
+      }
+}
+@media screen and (min-width: 993px) {
+  .status__icon {
+    margin-left: 30% !important;
+  }
+  .trade__name{
+    color: #464253;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .trade__time{
+      margin-top: 0px;
+  }
+  .trade__amount{
+      margin-top: 50%;
+  }
+  .trade__infoContainer {
+    margin-left: 10%;
+    margin-top: 20%;
+  }
 }
 
-.icon__red{
-    color:#ff5b5a;
+@media screen and (max-width: 992px) {
+  .trade__name {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #464253;
+  }
+  .trade__amount {
+    font-size: 12px;
+    margin-top: 50%;
+  }
+  .trade__time {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .trade__infoContainer {
+    margin-left: 10%;
+    margin-top: 20%;
+  }
 }
-.icon__green{
-    color: #00a388;
+
+@media screen and (max-width: 1248px) and (min-width: 994px) {
+  .trade__infoContainer {
+    margin-top: 20%;
+  }
+  .trade__amount {
+    font-size: 14px;
+    margin-top: 50%;
+  }
+  .trade__name {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .trade__time {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
+/* @media screen and (max-width: 600px) {
+    .status__iconContainer {
+        height: 50px;
+        width: 50px;
+      }
+      .trade__name{
+        color:#ff5b5a;
+        font-size:6px !important;
+        font-weight:600
+      }
+  } */
+
+.icon__red {
+  color: #ff5b5a;
+}
+.icon__green {
+  color: #00a388;
 }
